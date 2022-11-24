@@ -54,4 +54,8 @@ public class EnteringPasswordPageLogic {
     public String getActualInput(){
       return  driver.findElement(passwordField).getDomProperty("value");
     }
+    public EnteringPasswordPageLogic clickOnINputField(){
+        driver.findElement(passwordField).click();
+    return this;
+    }
 }
