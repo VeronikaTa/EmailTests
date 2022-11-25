@@ -36,7 +36,7 @@ public class LoginWithoutPasswordTest {
         new EnteringUserNamePageLogic(driver,wait)
                 .enterCredentials(address)
                 .clickOnNextButton()
-                .clickOnINputField()
+                .clickOnInputField()
                         .clickOnNextButton();
 
         assertNoNavigationDone();

@@ -37,7 +37,7 @@ public class LoginWithValidMailAddressAndInvalidPasswordTest {
        new EnteringUserNamePageLogic(driver,wait)
                .enterCredentials(address)
                .clickOnNextButton()
-               .enterPassword(invalidPassword)
+               .enterCredentials(invalidPassword)
                .verifyIfToggled()
                .clickOnNextButton();
 
