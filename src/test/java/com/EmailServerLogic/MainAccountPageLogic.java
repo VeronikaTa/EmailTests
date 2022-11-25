@@ -1,4 +1,4 @@
-package com.yahooEmail;
+package com.EmailServerLogic;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;

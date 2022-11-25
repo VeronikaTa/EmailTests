@@ -1,6 +1,6 @@
 package com.LoginTests;
 
-import com.yahooEmail.EnteringUserNamePageLogic;
+import com.EmailServerLogic.EnteringUserNamePageLogic;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
