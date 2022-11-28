@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-public class EnteringPasswordPageLogic{
+public class EnteringPasswordPageLogic {
     private WebDriver driver;
     private WebDriverWait wait;
 
@@ -34,9 +34,9 @@ public class EnteringPasswordPageLogic{
     return this;
     }
 
-    public MainAccountPageLogic clickOnNextButton(){
+    public MailPageLogicYahoo clickOnNextButton(){
         driver.findElement(nextButton).click();
-        return new MainAccountPageLogic(driver, wait);
+        return new MailPageLogicYahoo(driver, wait);
     }
 
     public String getPasswordBorderStyle(){

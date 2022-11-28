@@ -6,12 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class EnteringUserNamePageLogic{
+public class EnteringUserNamePageLogic {
 
     private WebDriver driver;
     private WebDriverWait wait;
 
-    private  By inputField = By.id("login-username");
+    private final By inputField = By.id("login-username");
     private final By nextButton = By.id("login-signin");
     private final By warningMessage = By.id("username-error");
     public EnteringUserNamePageLogic(WebDriver driver, WebDriverWait wait){
